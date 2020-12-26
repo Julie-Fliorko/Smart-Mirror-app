@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.settings.SettingsActivity"></activity>
+        <activity
+            android:name=".SlideDrawer"
+            android:label="@string/title_activity_slide_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".BasicActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">

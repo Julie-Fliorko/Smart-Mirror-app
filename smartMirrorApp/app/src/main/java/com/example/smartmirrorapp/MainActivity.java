@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.smartmirrorapp.ui.news.NewsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (nickName.getText().toString().equals("me") && password.getText().toString().equals("1")){
 
-                    Intent intent = new Intent(MainActivity.this, BasicActivity.class);
+                    Intent intent = new Intent(MainActivity.this, NewsFragment.class);
                     startActivity(intent);
                 }
                 else{

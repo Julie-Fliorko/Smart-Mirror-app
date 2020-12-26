@@ -47,7 +47,6 @@ public class RegisterActivity extends AppCompatActivity {
                             isValid = false;
                         }
                     }
-
                     if (isEmpty(password)) {
                         password.setError("You must enter password to login!");
                         isValid = false;
@@ -57,7 +56,6 @@ public class RegisterActivity extends AppCompatActivity {
                             isValid = false;
                         }
                     }
-
                     //check email and password
                     //IMPORTANT: here should be call to backend or safer function for local check; For example simple check is cool
                     //For example simple check is cool

@@ -23,7 +23,7 @@ public class LogIn extends Activity {
         CheckBox rememberMe = findViewById(R.id.checkBox);
         Button register = findViewById(R.id.register);
 
-        sigIn.setOnClickListener(new View.OnClickListener() {
+        /*sigIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (nickName.getText().toString().equals("me") && password.getText().toString().equals("1")) {
@@ -36,6 +36,6 @@ public class LogIn extends Activity {
                 }
 
             }
-        });
+        });*/
     }
 }
